@@ -1,7 +1,7 @@
 import UserForm from '@/components/UserForm';
 import prisma from '@/prisma/db';
-import { getServerSession } from 'next-auth';
-import options from '../api/auth/[...nextauth]/options';
+// import { getServerSession } from 'next-auth';
+// import options from '../api/auth/[...nextauth]/options';
 import DataTableSimple from './data-table-simple';
 const Users = async () => {
 	// const session = await getServerSession(options);

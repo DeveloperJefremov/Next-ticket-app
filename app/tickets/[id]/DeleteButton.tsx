@@ -26,6 +26,7 @@ const DeleteButton = ({ ticketId }: { ticketId: number }) => {
 			router.push('/tickets');
 			router.refresh();
 		} catch (error) {
+			console.log(error);
 			setIsDeleting(false);
 			setError('Error deleting ticket');
 		}
